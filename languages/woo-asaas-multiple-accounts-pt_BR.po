@@ -1,0 +1,172 @@
+# Copyright (C) 2018 Asaas
+# This file is distributed under the same license as the Woo Asaas Multiple Accounts plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Asaas Multiple Accounts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: 2018-11-23T11:20:26+00:00\n"
+"PO-Revision-Date: 2018-11-23 09:21-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Domain: woo-asaas-multiple-accounts\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Woo Asaas Multiple Accounts"
+msgstr "Woo Asaas Múltiplas Contas"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.asaas.com"
+msgstr "https://www.asaas.com"
+
+#. Description of the plugin
+msgid ""
+"Allow multiple Asaas API accounts and associate each product with one "
+"account."
+msgstr ""
+"Permite múltiplas contas Asaas API e associa cada produto com uma conta."
+
+#. Author of the plugin
+msgid "Asaas"
+msgstr "Asaas"
+
+#: includes/admin/views/account-list.php:14
+msgid "Accounts"
+msgstr "Contas"
+
+#: includes/admin/views/account-list.php:17
+msgctxt "new account"
+msgid "Add new"
+msgstr "Adicionar novo"
+
+#: includes/admin/views/account-list.php:25
+#: includes/admin/class-account-form.php:144
+msgid "Name"
+msgstr "Nome"
+
+#: includes/admin/views/account-list.php:26
+#: includes/admin/class-account-form.php:150
+msgid "API Key"
+msgstr "Chave da API"
+
+#: includes/admin/views/account-list.php:27
+#: includes/admin/class-account-form.php:136
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/admin/views/account-list.php:28
+msgid "Notification"
+msgstr "Notificação"
+
+#: includes/admin/views/account-list.php:74
+msgid "Manage"
+msgstr "Gerenciar"
+
+#: includes/admin/views/account-list.php:76
+msgid "Do you really want to remove a default account?"
+msgstr "Você realmente deseja remover uma conta padrão?"
+
+#: includes/admin/views/account-list.php:76
+#: includes/admin/views/account-list.php:78
+msgid "Delete"
+msgstr "Excluir"
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:28
+msgid "Install %s"
+msgstr "Instalar %s"
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:44
+msgid "Activate %s"
+msgstr "Ativar %s"
+
+#. translators: 1: The plugin name, 2: The dependency plugin name
+#: includes/admin/views/missing-dependency-plugin.php:51
+msgid "<strong>%1$s</strong> depends on the %2$s plugin to work."
+msgstr "<strong>%1$s</strong> depende do plugin %2$s para funcionar."
+
+#: includes/admin/class-product-settings.php:59
+msgid "Select a Asaas account"
+msgstr "Selecione uma conta Asaas"
+
+#: includes/admin/class-product-settings.php:66
+msgid "Asaas gateway account"
+msgstr "Conta Asaas"
+
+#: includes/admin/class-product-settings.php:67
+msgid "Select the account that will process the payment"
+msgstr "Selecione uma conta que processará o pagamento"
+
+#: includes/admin/class-account-form.php:102
+msgid "Inexistent account id."
+msgstr "Conta inexistente."
+
+#: includes/admin/class-account-form.php:132
+msgid "New Account"
+msgstr "Nova conta"
+
+#: includes/admin/class-account-form.php:137
+msgid "Set as default"
+msgstr "Definir como padrão"
+
+#: includes/admin/class-account-form.php:139
+msgid "Set this account as default when no account is set on product."
+msgstr ""
+"Definir essa conta como padrão quando nenhuma conta foi definida no produto."
+
+#: includes/admin/class-account-form.php:146
+msgid "The account name."
+msgstr "O nome da conta."
+
+#. translators: %s: href
+#: includes/admin/class-account-form.php:153
+msgid ""
+"The API Key used to connect with Asaas. <a href=\"%s\">Click here</a> to get "
+"it."
+msgstr ""
+"A chave da API usada para conectar com o Asaas. <a href=\"%s\">Clique aqui</"
+"a> para obter."
+
+#: includes/admin/class-account-form.php:157
+msgid "Notification between Asaas and customer"
+msgstr "Notificação entre Asaas e cliente"
+
+#: includes/admin/class-account-form.php:159
+msgid "Enable Notification"
+msgstr "Habilitar notificações"
+
+#: includes/admin/class-account-form.php:160
+msgid ""
+"Allow Asaas to send email and SMS about the purchase and notify him "
+"periodically while the purchase is not paid."
+msgstr ""
+"Permite o Asaas enviar e-mail e SMS sobre a compra e notifica periodicamente "
+"enquanto a compra não é paga."
+
+#. translators: %s: field name
+#: includes/admin/class-account-form.php:217
+msgid "The field %s is required."
+msgstr "O campo % é obrigatório."
+
+#: includes/admin/class-account-form.php:270
+msgid "Account saved successfully."
+msgstr "Conta salva com sucesso."
+
+#: includes/admin/class-account-form.php:328
+msgid "Account successfully deleted."
+msgstr "Conta removida com sucesso."
+
+#: includes/shop/class-shop.php:47
+msgid "Buy"
+msgstr "Comprar"
+
+#: templates/view-product-button.php:12
+msgid "View product"
+msgstr "Ver produto"

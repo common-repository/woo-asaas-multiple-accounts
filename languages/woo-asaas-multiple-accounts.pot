@@ -1,0 +1,158 @@
+# Copyright (C) 2018 Asaas
+# This file is distributed under the same license as the Woo Asaas Multiple Accounts plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Asaas Multiple Accounts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-11-23T11:20:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: woo-asaas-multiple-accounts\n"
+
+#. Plugin Name of the plugin
+msgid "Woo Asaas Multiple Accounts"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.asaas.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow multiple Asaas API accounts and associate each product with one account."
+msgstr ""
+
+#. Author of the plugin
+msgid "Asaas"
+msgstr ""
+
+#: includes/admin/views/account-list.php:14
+msgid "Accounts"
+msgstr ""
+
+#: includes/admin/views/account-list.php:17
+msgctxt "new account"
+msgid "Add new"
+msgstr ""
+
+#: includes/admin/views/account-list.php:25
+#: includes/admin/class-account-form.php:144
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/account-list.php:26
+#: includes/admin/class-account-form.php:150
+msgid "API Key"
+msgstr ""
+
+#: includes/admin/views/account-list.php:27
+#: includes/admin/class-account-form.php:136
+msgid "Default"
+msgstr ""
+
+#: includes/admin/views/account-list.php:28
+msgid "Notification"
+msgstr ""
+
+#: includes/admin/views/account-list.php:74
+msgid "Manage"
+msgstr ""
+
+#: includes/admin/views/account-list.php:76
+msgid "Do you really want to remove a default account?"
+msgstr ""
+
+#: includes/admin/views/account-list.php:76
+#: includes/admin/views/account-list.php:78
+msgid "Delete"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:28
+msgid "Install %s"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: includes/admin/views/missing-dependency-plugin.php:44
+msgid "Activate %s"
+msgstr ""
+
+#. translators: 1: The plugin name, 2: The dependency plugin name
+#: includes/admin/views/missing-dependency-plugin.php:51
+msgid "<strong>%1$s</strong> depends on the %2$s plugin to work."
+msgstr ""
+
+#: includes/admin/class-product-settings.php:59
+msgid "Select a Asaas account"
+msgstr ""
+
+#: includes/admin/class-product-settings.php:66
+msgid "Asaas gateway account"
+msgstr ""
+
+#: includes/admin/class-product-settings.php:67
+msgid "Select the account that will process the payment"
+msgstr ""
+
+#: includes/admin/class-account-form.php:102
+msgid "Inexistent account id."
+msgstr ""
+
+#: includes/admin/class-account-form.php:132
+msgid "New Account"
+msgstr ""
+
+#: includes/admin/class-account-form.php:137
+msgid "Set as default"
+msgstr ""
+
+#: includes/admin/class-account-form.php:139
+msgid "Set this account as default when no account is set on product."
+msgstr ""
+
+#: includes/admin/class-account-form.php:146
+msgid "The account name."
+msgstr ""
+
+#. translators: %s: href
+#: includes/admin/class-account-form.php:153
+msgid "The API Key used to connect with Asaas. <a href=\"%s\">Click here</a> to get it."
+msgstr ""
+
+#: includes/admin/class-account-form.php:157
+msgid "Notification between Asaas and customer"
+msgstr ""
+
+#: includes/admin/class-account-form.php:159
+msgid "Enable Notification"
+msgstr ""
+
+#: includes/admin/class-account-form.php:160
+msgid "Allow Asaas to send email and SMS about the purchase and notify him periodically while the purchase is not paid."
+msgstr ""
+
+#. translators: %s: field name
+#: includes/admin/class-account-form.php:217
+msgid "The field %s is required."
+msgstr ""
+
+#: includes/admin/class-account-form.php:270
+msgid "Account saved successfully."
+msgstr ""
+
+#: includes/admin/class-account-form.php:328
+msgid "Account successfully deleted."
+msgstr ""
+
+#: includes/shop/class-shop.php:47
+msgid "Buy"
+msgstr ""
+
+#: templates/view-product-button.php:12
+msgid "View product"
+msgstr ""
